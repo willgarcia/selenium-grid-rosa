@@ -60,7 +60,7 @@ Ran 1 test in 2.435s
 OK
 ```
 
-### Step 5 - Run test in OpenShift (CI/CD)
+## Step 5 - Run test in OpenShift (CI/CD)
 
 In the Operator Hub, install the operator named "Red Hat OpenShift Pipelines" provided by Red Hat.
 
