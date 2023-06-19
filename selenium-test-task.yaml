@@ -1,0 +1,11 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: selenium-test-task
+spec:
+  steps:
+    - name: run-test
+      image: willgarcia/selenium-test
+      env:
+        - name: SELENIUM_HUB_ENDPOINT
+          value: http://selenium-hub.selenium.svc:4444

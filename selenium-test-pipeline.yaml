@@ -1,0 +1,9 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: selenium-test-pipeline
+spec:
+  tasks:
+    - name: selenium-test-task
+      taskRef:
+        name: selenium-test-task

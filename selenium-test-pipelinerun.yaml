@@ -1,0 +1,7 @@
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: selenium-test-pipelinerun
+spec:
+  pipelineRef:
+    name: selenium-test-pipeline
