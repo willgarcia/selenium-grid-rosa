@@ -48,7 +48,7 @@ Set the Selenium Hub endpoint:
 export SELENIUM_HUB_ENDPOINT='http://localhost:4444/wd/hub'
 ```
 
-When the test runs, you should a browser window opening Chrome and browsing example.com.
+When the test runs, you should see a browser window opening Chrome and going to example.com.
 
 In your terminal, you should see the test result:
 
