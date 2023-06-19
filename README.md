@@ -1,6 +1,6 @@
-# Selenim Grid demo on ROSA
+# Selenium Grid demo on ROSA
 
-## Step 1 - Install Selenim Grid
+## Step 1 - Install Selenium Grid
 
 ```bash
 helm repo add docker-selenium https://www.selenium.dev/docker-selenium
@@ -24,7 +24,6 @@ oc port-forward service/selenium-hub 4444:4444
 Access the UI on <http://localhost:4444>
 
 Verify that Selenium Grid is ready by checking the status on <http://localhost:4444/wd/hub/status>
-
 
 ## Step 3 - VNC access
 
